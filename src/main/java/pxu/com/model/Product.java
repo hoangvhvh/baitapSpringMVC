@@ -4,6 +4,14 @@ public class Product {
 	private int code;
 	private String name;
 	private float price;
+	private String imageUrl;
+	
+	public String getImageUrl() {
+		return imageUrl;
+	}
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
+	}
 	public int getCode() {
 		return code;
 	}
@@ -22,11 +30,13 @@ public class Product {
 	public void setPrice(float price) {
 		this.price = price;
 	}
-	public Product(int i, String name, float price) {
+
+	public Product(int code, String name, float price, String imageUrl) {
 		super();
-		this.code = i;
+		this.code = code;
 		this.name = name;
 		this.price = price;
+		this.imageUrl = imageUrl;
 	}
 	public Product() {
 		super();

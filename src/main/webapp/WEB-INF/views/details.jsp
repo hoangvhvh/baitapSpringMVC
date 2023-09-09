@@ -11,6 +11,7 @@
 <h2>${product.code}</h2>
 <h2>${product.name}</h2>
 <p>Price: ${product.price}</p>
+ <h4><img src="${product.imageUrl}"></img></h4>
 
 <a href="${pageContext.request.contextPath}/products">Back to Product List</a>
 </body>

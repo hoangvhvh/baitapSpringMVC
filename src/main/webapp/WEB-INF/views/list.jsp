@@ -9,13 +9,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="add">dcdkjb</a>
+	<a href="add">Đăng ký tài khoản</a>
 	<table>
 		<thead>
 			<tr>
 				<th>ID</th>
 				<th>Name</th>
 				<th>Price</th>
+				<th>Image</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -24,6 +25,7 @@
 					<td>${product.code}</td>
 					<td>${product.name}</td>
 					<td>${product.price}</td>
+				    <td><img src="${product.imageUrl}"></td>
 					<td><a href="view?code=${product.code}">view</a></td>
 					<td><a href="update?code=${product.code}">edit</a></td>
 					<td><a href="delete?code=${product.code}">delete</a></td>

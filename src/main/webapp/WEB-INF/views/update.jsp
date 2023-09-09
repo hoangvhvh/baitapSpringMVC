@@ -31,6 +31,11 @@
 						cssStyle="color:red" /></td>
 			</tr>
 			<tr>
+			    	<td><form:label path="imageUrl">Ảnh: </form:label></td>
+				<td><form:input path="imageUrl" /> <form:errors path="imageUrl"
+						cssStyle="color:red" /></td>
+			</tr>
+			<tr>
 				<c:if test="${not empty error}">
                 Message: ${error}
             </c:if>

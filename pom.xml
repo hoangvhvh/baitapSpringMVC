@@ -6,8 +6,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>pxu.com</groupId>
-	<artifactId>baitap6-9</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>baitapSpringMVC</artifactId>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>baitap6-9 Maven Webapp</name>
@@ -61,11 +61,7 @@
 			<version>2.3.1</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>pxu.com</groupId>
-			<artifactId>SpringWebMVC</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 	</dependencies>
 
 	<build>
